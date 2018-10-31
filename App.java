@@ -14,14 +14,8 @@ import javafx.stage.Stage;
 
 import support.seamcarve.*;
 
-/**
- * 
- * This is the support code for the set-up of images that students can
- * run a version of seamcarve on.
- * 
- * @author Surbhi Madan (sm15) 
- * @version 01/03/17
- */
+
+
 public class App extends Application {
 	
 	// Had to make this an instance variable to be able to reset it in the File Chooser handler
