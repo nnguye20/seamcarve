@@ -4,17 +4,9 @@ import javafx.scene.layout.BorderPane;
 import support.seamcarve.*;
 
 /**
- * This class is your seam carving picture pane. It is a subclass of
+ * This class is a seam carving picture pane. It is a subclass of
  * PicturePane, an abstract class that takes care of all the drawing,
- * displaying, carving, and updating of seams and images for you. Your job is to
- * override the abstract method of PicturePanel that actually finds the lowest
- * cost seam through the image.
- * 
- * See method comments and handouts for specifics on the steps of the seam
- * carving algorithm.
- *
- * 
- * @version 01/07/2017
+ * displaying, carving, and updating of seams and images. 
  */
 
 public class MyPicturePane extends PicturePane {
