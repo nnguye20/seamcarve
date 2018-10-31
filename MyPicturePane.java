@@ -6,12 +6,10 @@ import support.seamcarve.*;
 
 /** 
  * This class is your seam carving picture pane.  It is a subclass of PicturePane,
- * an abstract class that takes care of all the drawing, displaying, carving, and
- * updating of seams and images for you.  Your job is to override the abstract
- * method of PicturePanel that actually finds the lowest cost seam through
- * the image.
+ * that takes care of all the drawing, displaying, carving, and
+ * updating of seams and images. 
+
  * 
- * See method comments and handouts for specifics on the steps of the seam carving algorithm.
  *
  * 
  * @version 01/07/2017
@@ -35,13 +33,6 @@ public class MyPicturePane extends PicturePane {
 
 	
 	/**
-	 * In this method, you'll implement the dynamic programming algorithm
-	 * that you learned on the first day of class to find the lowest cost seam from the top
-	 * of the image to the bottom. BEFORE YOU START make sure you fully understand how the algorithm works
-	 * and what it's doing.
-	 * See the handout for some helpful resources and use hours/piazza to clarify conceptual blocks
-	 * before you attempt to write code.
-	 * 
 	 * This method returns an array of ints that represents a seam.  This size of this array
 	 * is the height of the image.  Each entry of the seam array corresponds to one row of the 
 	 * image.  The data in each entry should be the x coordinate of the seam in this row.  
@@ -62,8 +53,6 @@ public class MyPicturePane extends PicturePane {
 	 * currSeam[3] = 2;
 	 * return currSeam;
 	 * 
-	 *
-	 * @return the lowest cost seam of the current image
  	 */
 	protected int[] findLowestCostSeam() {
 		// TODO: Your code here
