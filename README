@@ -1,0 +1,22 @@
+HANDIN: This is intended to be my final handin
+
+DESIGN CHOICES: I wrote class myPicturePane with the following methods: findLowestCostSeam, 
+fillCostsAndDirs, argmin, and getImportanceValues.
+
+I delegated cost/direction array functionality to the helper method fillCostsAndDirs() for 
+organizational purposes. Also, for readability, I chose to initialize the costs/dirs arrays
+within findLowestCostSeam, rather than have fillCostsAndDirs() be a getter method that returns
+an 2 x 1 array holding the two arrays (seemed confusing). I also called 
+
+Note that the middleDownPixel can never be out bounds, so I did not check boundaries for such 
+pixel in fillCostsAndDirs().
+
+
+KNOWN BUGS: Something may be wrong with my Eclipse seamcarve package, as I couldn't 
+figure out how to run the program directly from Terminal (e.g. java seamcarve.App)
+
+
+
+
+
+ 
